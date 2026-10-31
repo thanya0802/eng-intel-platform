@@ -1,0 +1,6 @@
+{
+ "_note": "Thresholds for the no-LLM (extractive) mode used in CI. Raise agent_pass_rate when CI runs with Gemini.",
+ "retrieval_hybrid_recall@5": 0.85,
+ "retrieval_hybrid_mrr": 0.6,
+ "agent_pass_rate": 0.9
+}

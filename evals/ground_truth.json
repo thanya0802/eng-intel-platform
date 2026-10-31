@@ -1,0 +1,57 @@
+{
+  "open_chain_requirements": [
+    "REQ-104",
+    "REQ-109",
+    "REQ-112"
+  ],
+  "closed_chain_requirements": [
+    "REQ-125"
+  ],
+  "chains": [
+    {
+      "req": "REQ-104",
+      "tc": "TC-204",
+      "fail": "FAIL-87",
+      "cr": "CR-12",
+      "cr_status": "open"
+    },
+    {
+      "req": "REQ-109",
+      "tc": "TC-209",
+      "fail": "FAIL-90",
+      "cr": "CR-15",
+      "cr_status": "open"
+    },
+    {
+      "req": "REQ-112",
+      "tc": "TC-212",
+      "fail": "FAIL-88",
+      "cr": "CR-13",
+      "cr_status": "open"
+    },
+    {
+      "req": "REQ-125",
+      "tc": "TC-225",
+      "fail": "FAIL-89",
+      "cr": "CR-14",
+      "cr_status": "closed"
+    },
+    {
+      "req": "REQ-121",
+      "tc": "TC-221",
+      "fail": "FAIL-91",
+      "cr": null,
+      "cr_status": null
+    }
+  ],
+  "uncovered_requirements": [
+    "REQ-130",
+    "REQ-131"
+  ],
+  "expected_quality_failures": [
+    "duplicate_key:requirements:REQ-107",
+    "required_fields:requirements:REQ-129",
+    "ref_integrity_test_to_req:TC-299",
+    "file_schema:test_results__late_batch.csv"
+  ]
+}

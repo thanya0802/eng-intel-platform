@@ -1,0 +1,314 @@
+[
+ {
+  "q": "What is the maximum cell operating temperature?",
+  "relevant": [
+   {
+    "source": "battery_thermal_design_spec.pdf",
+    "section_num": "2"
+   },
+   {
+    "source": "battery_thermal_design_spec.pdf",
+    "section_num": "5"
+   }
+  ]
+ },
+ {
+  "q": "Above what cell temperature is charging not permitted?",
+  "relevant": [
+   {
+    "source": "battery_thermal_design_spec.pdf",
+    "section_num": "2"
+   },
+   {
+    "source": "battery_thermal_design_spec.pdf",
+    "section_num": "5"
+   }
+  ]
+ },
+ {
+  "q": "What is the maximum allowed temperature spread across cells?",
+  "relevant": [
+   {
+    "source": "battery_thermal_design_spec.pdf",
+    "section_num": "2"
+   },
+   {
+    "source": "battery_thermal_design_spec.pdf",
+    "section_num": "5"
+   }
+  ]
+ },
+ {
+  "q": "What coolant flow rate does the battery loop use?",
+  "relevant": [
+   {
+    "source": "battery_thermal_design_spec.pdf",
+    "section_num": "3"
+   },
+   {
+    "source": "battery_thermal_design_spec.pdf",
+    "section_num": "5"
+   }
+  ]
+ },
+ {
+  "q": "What happens to coolant flow if one pump fails?",
+  "relevant": [
+   {
+    "source": "battery_thermal_design_spec.pdf",
+    "section_num": "3"
+   }
+  ]
+ },
+ {
+  "q": "How long must thermal runaway be contained before it propagates?",
+  "relevant": [
+   {
+    "source": "battery_thermal_design_spec.pdf",
+    "section_num": "4"
+   }
+  ]
+ },
+ {
+  "q": "Which test case verifies thermal runaway containment?",
+  "relevant": [
+   {
+    "source": "battery_thermal_design_spec.pdf",
+    "section_num": "4"
+   }
+  ]
+ },
+ {
+  "q": "What vibration frequency range was used for HV connector testing?",
+  "relevant": [
+   {
+    "source": "hv_connector_vibration_test_report.pdf",
+    "section_num": "2"
+   }
+  ]
+ },
+ {
+  "q": "How many hours was each axis vibrated?",
+  "relevant": [
+   {
+    "source": "hv_connector_vibration_test_report.pdf",
+    "section_num": "2"
+   }
+  ]
+ },
+ {
+  "q": "What caused the HV-7 connector failures?",
+  "relevant": [
+   {
+    "source": "hv_connector_vibration_test_report.pdf",
+    "section_num": "3"
+   }
+  ]
+ },
+ {
+  "q": "How many connector samples failed vibration testing?",
+  "relevant": [
+   {
+    "source": "hv_connector_vibration_test_report.pdf",
+    "section_num": "1"
+   },
+   {
+    "source": "hv_connector_vibration_test_report.pdf",
+    "section_num": "3"
+   },
+   {
+    "source": "hv_connector_vibration_test_report.pdf",
+    "section_num": "5"
+   }
+  ]
+ },
+ {
+  "q": "What plating change is proposed for the HV connector?",
+  "relevant": [
+   {
+    "source": "hv_connector_vibration_test_report.pdf",
+    "section_num": "4"
+   }
+  ]
+ },
+ {
+  "q": "What is the brake response latency requirement?",
+  "relevant": [
+   {
+    "source": "brake_by_wire_requirements.pdf",
+    "section_num": "2"
+   }
+  ]
+ },
+ {
+  "q": "How quickly does the secondary brake control unit take over?",
+  "relevant": [
+   {
+    "source": "brake_by_wire_requirements.pdf",
+    "section_num": "3"
+   }
+  ]
+ },
+ {
+  "q": "What speed limit applies in brake degraded mode?",
+  "relevant": [
+   {
+    "source": "brake_by_wire_requirements.pdf",
+    "section_num": "4"
+   }
+  ]
+ },
+ {
+  "q": "What minimum deceleration is guaranteed in degraded mode?",
+  "relevant": [
+   {
+    "source": "brake_by_wire_requirements.pdf",
+    "section_num": "4"
+   }
+  ]
+ },
+ {
+  "q": "What is the maximum DC fast charging power?",
+  "relevant": [
+   {
+    "source": "charging_interface_control_document.pdf",
+    "section_num": "2"
+   }
+  ]
+ },
+ {
+  "q": "What voltage window does the charging inlet support?",
+  "relevant": [
+   {
+    "source": "charging_interface_control_document.pdf",
+    "section_num": "2"
+   }
+  ]
+ },
+ {
+  "q": "Which protocol is used for charger to vehicle communication?",
+  "relevant": [
+   {
+    "source": "charging_interface_control_document.pdf",
+    "section_num": "3"
+   }
+  ]
+ },
+ {
+  "q": "Where are Plug and Charge certificates stored?",
+  "relevant": [
+   {
+    "source": "charging_interface_control_document.pdf",
+    "section_num": "3"
+   }
+  ]
+ },
+ {
+  "q": "What is the insulation monitoring threshold?",
+  "relevant": [
+   {
+    "source": "charging_interface_control_document.pdf",
+    "section_num": "4"
+   }
+  ]
+ },
+ {
+  "q": "How fast must DC link pre-charge complete?",
+  "relevant": [
+   {
+    "source": "charging_interface_control_document.pdf",
+    "section_num": "4"
+   }
+  ]
+ },
+ {
+  "q": "When is ADAS camera calibration required?",
+  "relevant": [
+   {
+    "source": "adas_camera_calibration_procedure.pdf",
+    "section_num": "1"
+   }
+  ]
+ },
+ {
+  "q": "How far from the vehicle is the calibration target placed?",
+  "relevant": [
+   {
+    "source": "adas_camera_calibration_procedure.pdf",
+    "section_num": "2"
+   }
+  ]
+ },
+ {
+  "q": "What lighting is needed at the calibration target?",
+  "relevant": [
+   {
+    "source": "adas_camera_calibration_procedure.pdf",
+    "section_num": "2"
+   }
+  ]
+ },
+ {
+  "q": "What angular tolerance must camera calibration meet?",
+  "relevant": [
+   {
+    "source": "adas_camera_calibration_procedure.pdf",
+    "section_num": "3"
+   }
+  ]
+ },
+ {
+  "q": "How long were parts exposed to salt spray?",
+  "relevant": [
+   {
+    "source": "salt_spray_corrosion_test.pdf",
+    "section_num": "1"
+   }
+  ]
+ },
+ {
+  "q": "Which part showed red rust and after how many hours?",
+  "relevant": [
+   {
+    "source": "salt_spray_corrosion_test.pdf",
+    "section_num": "3"
+   }
+  ]
+ },
+ {
+  "q": "Why is regenerative braking disabled in cold weather?",
+  "relevant": [
+   {
+    "source": "vcu_software_release_notes.pdf",
+    "section_num": "2"
+   }
+  ]
+ },
+ {
+  "q": "Which gateway software version must be flashed with VCU 4.2.1?",
+  "relevant": [
+   {
+    "source": "vcu_software_release_notes.pdf",
+    "section_num": "3"
+   }
+  ]
+ },
+ {
+  "q": "What did the design review decide about CR-15?",
+  "relevant": [
+   {
+    "source": "design_review_minutes_q3.pdf",
+    "section_num": "2"
+   }
+  ]
+ },
+ {
+  "q": "Who will rerun TC-204 and when?",
+  "relevant": [
+   {
+    "source": "design_review_minutes_q3.pdf",
+    "section_num": "3"
+   }
+  ]
+ }
+]

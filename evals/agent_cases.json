@@ -1,0 +1,139 @@
+[
+ {
+  "q": "Which requirements have failing tests linked to open change requests?",
+  "expect_ids": [
+   "REQ-104",
+   "REQ-109",
+   "REQ-112"
+  ],
+  "forbid_ids": [
+   "REQ-125",
+   "REQ-121"
+  ],
+  "answerable": true,
+  "category": "traceability"
+ },
+ {
+  "q": "Which change requests are closed after a test failure?",
+  "expect_ids": [
+   "CR-14"
+  ],
+  "forbid_ids": [
+   "CR-12",
+   "CR-13",
+   "CR-15"
+  ],
+  "answerable": true,
+  "category": "traceability"
+ },
+ {
+  "q": "Trace REQ-104",
+  "expect_ids": [
+   "TC-204",
+   "FAIL-87",
+   "CR-12"
+  ],
+  "answerable": true,
+  "category": "traceability"
+ },
+ {
+  "q": "What failure is linked to TC-221?",
+  "expect_ids": [
+   "FAIL-91"
+  ],
+  "answerable": true,
+  "category": "traceability"
+ },
+ {
+  "q": "How many requirements are there by status?",
+  "expect_contains": [
+   "approved"
+  ],
+  "answerable": true,
+  "category": "structured"
+ },
+ {
+  "q": "List the open change requests",
+  "expect_ids": [
+   "CR-12",
+   "CR-13",
+   "CR-15"
+  ],
+  "forbid_ids": [
+   "CR-14"
+  ],
+  "answerable": true,
+  "category": "structured"
+ },
+ {
+  "q": "What is the brake response latency requirement?",
+  "expect_contains": [
+   "120"
+  ],
+  "expect_source": "brake_by_wire_requirements.pdf",
+  "answerable": true,
+  "category": "document"
+ },
+ {
+  "q": "What is the maximum DC fast charging power?",
+  "expect_contains": [
+   "350"
+  ],
+  "expect_source": "charging_interface_control_document.pdf",
+  "answerable": true,
+  "category": "document"
+ },
+ {
+  "q": "How far from the vehicle is the calibration target placed?",
+  "expect_contains": [
+   "4.5"
+  ],
+  "expect_source": "adas_camera_calibration_procedure.pdf",
+  "answerable": true,
+  "category": "document"
+ },
+ {
+  "q": "What caused the HV-7 connector failures?",
+  "expect_contains": [
+   "fretting"
+  ],
+  "expect_source": "hv_connector_vibration_test_report.pdf",
+  "answerable": true,
+  "category": "document"
+ },
+ {
+  "q": "What is CR-13 changing and which failure does it address?",
+  "expect_ids": [
+   "FAIL-88"
+  ],
+  "expect_contains": [
+   "silver"
+  ],
+  "answerable": true,
+  "category": "cross_source"
+ },
+ {
+  "q": "What did the review board decide about CR-12 and which failure is it for?",
+  "expect_ids": [
+   "FAIL-87"
+  ],
+  "expect_source": "design_review_minutes_q3.pdf",
+  "answerable": true,
+  "category": "cross_source"
+ },
+ {
+  "q": "What is the warranty period for the infotainment screen?",
+  "answerable": false,
+  "category": "unanswerable"
+ },
+ {
+  "q": "Who won the Le Mans race this year?",
+  "answerable": false,
+  "category": "unanswerable"
+ },
+ {
+  "q": "What is the towing capacity of the pickup variant?",
+  "answerable": false,
+  "category": "unanswerable"
+ }
+]
