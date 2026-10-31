@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/structured/
+data/warehouse.db
+data/index/
+evals/results/
+.env
+data/warehouse.db-*
+infra/.terraform/
